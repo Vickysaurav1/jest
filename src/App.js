@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Name from './Name';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>First React Test Case</p>
+      <img title='electronics img' src='https://cdn.pixabay.com/photo/2023/08/24/07/46/headphones-8210087_1280.jpg'/>
+
+      <input type='text' placeholder = "Enter user new mantri" name='username'/>
     </div>
   );
 }
